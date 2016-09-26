@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0,user-scalable=no">
+    <title>IMUDGES2016发布会</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="image/favicon.ico" rel="icon">
+</head>
+<body>
+<div id="container" style="height: 750px">
+    <div id="output"></div>
+</div>
+<section class="container" style="height: 750px">
+    <div class="col-xs-12">
+        <div class="col-sm-6 col-xs-12 part1">
+            <div class="main text-left">
+                <div class="lgdivide hidden-xs"></div>
+                <h1>IMUDGES EVENT 2016<br>
+                    <small class="small">
+                        @2016.10.14晚6点30<br>
+                        综合楼阶梯教室 3<br>
+                    </small>
+                </h1>
+            </div>
+        </div>
+        <div class="col-sm-6 col-xs-12 part2">
+            <div class="main text-left">
+                <div class="mddivide  hidden-xs"></div>
+                <img class="logo center-block" src="image/logowhite.png" alt="imudges logo">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="container">
+    <h1 class="text-center">
+        PREVIEW<br>
+        <small>
+            我们将展示的内容
+        </small>
+    </h1>
+        <figure class="col-sm-6">
+            <img class="img-responsive col-sm-12 image " src="image/andriod.png">
+            <figcaption class="col-sm-12 text-center">
+                <h3>安卓应用</h3>
+            </figcaption>
+        </figure>
+        <figure class="col-sm-6">
+            <img class="img-responsive col-sm-12 image" src="image/ios.png">
+            <figcaption class="col-sm-12 text-center">
+                <h3>IOS应用</h3>
+            </figcaption>
+        </figure>
+        <figure class="col-sm-6">
+            <img class="img-responsive col-sm-12 image" src="image/Cross-device.png">
+            <figcaption class="col-sm-12 text-center">
+                <h3>跨平台应用</h3>
+            </figcaption>
+        </figure>
+        <figure class="col-sm-6">
+            <img class="img-responsive col-sm-12 image" src="image/zigbee-internet-of-things.png">
+            <figcaption class="col-sm-12 text-center">
+                <h3>物联网应用</h3>
+            </figcaption>
+        </figure>
+        <figure class="col-sm-6">
+            <img class="img-responsive col-sm-12 image" src="image/unity3d.png">
+            <figcaption class="col-sm-12 text-center">
+                <h3>Unity3D游戏</h3>
+            </figcaption>
+        </figure>
+        <figure class="col-sm-6">
+            <img class="img-responsive col-sm-12 image" src="image/Arduino.png">
+            <figcaption class="col-sm-12 text-center">
+                <h3>Arduino机器人</h3>
+            </figcaption>
+        </figure>
+        <figure class="col-sm-12">
+            <img class="center-block img-responsive image" src="image/nao-robot.png">
+            <figcaption class="col-sm-12 text-center">
+                <h3>nao机器人演示</h3>
+            </figcaption>
+        </figure>
+</section>
+<footer class="text-center col-xs-12">
+    <nav class="footer">
+        <span>友情链接 <i class="fa  fa-external-link"></i></span>
+        <ul class="list-inline">
+            <li><a href="http://mail.imudges.com" target="_blank">联盟邮箱</a></li>
+            <li><a href="http://www.imu.edu.cn" target="_blank">内蒙古大学</a></li>
+            <li><a href="http://www.ituring.com.cn" target="_blank">图灵社区</a></li>
+        </ul>
+        <p >
+            Copyright © 2011-2016 <a href="/">IMUDGES</a>
+            All Rights Reserved.<br><br>
+            陕ICP备14004378
+        </p>
+    </nav>
+</footer>
+<script src="js/jquery.min.js"></script>
+<script src="js/pin.min.js"></script>
+<script src="js/vector.js"></script>
+<script>
+    $(document).ready(function () {
+        var victor = new Victor("container", "output");
+        victor(["#18bbff", "#00486b"]).set();
+        var logo = $(".logo");
+    })
+</script>
+</body>
+</html>

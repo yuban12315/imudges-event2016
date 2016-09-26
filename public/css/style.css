@@ -1,0 +1,94 @@
+
+body {
+    font-family: MyFont ;
+    overflow-x: hidden;
+    font-weight: 300;
+}
+
+a, .btn {
+    outline: none !important;
+}
+
+h1 {
+    font-family: MyFont;
+    font-weight: 300;
+}
+h3{
+    font-family: MyFont;
+    font-weight: 300;
+}
+
+.small {
+    font-weight: 300 !important;
+    color: white !important;
+}
+
+.higelight {
+
+}
+
+#container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#output {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    margin: 0 auto;
+    color: white;
+}
+
+.lgdivide {
+    height: 300px;
+}
+
+.mddivide {
+    height: 220px;
+}
+
+.main {
+}
+
+.logo {
+    width: 300px;
+}
+
+.part1 {
+    /*animation: fadeInLeftBig 1.5s ease-in-out;*/
+    animation-name: fadeInRightBig, flash;
+    animation-duration: 1.5s ,2s;
+    animation-timing-function: ease-in-out, ease-in-out;
+    animation-delay: 0s, 2s;
+    animation-iteration-count: 1 ,2;
+}
+
+.part2 {
+    animation: fadeInLeftBig 1.5s ease-in-out;
+}
+.image:hover{
+    animation: pulse 1.5s;
+}
+
+figure{
+    margin-bottom: 30px ;
+}
+
+footer{
+    line-height: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #242424;
+    color: white;
+    padding: 50px;
+}
+.list-inline{
+    padding: 20px;
+}
